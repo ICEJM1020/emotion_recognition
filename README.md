@@ -18,7 +18,7 @@ Using changed mini_VGG achieve emotion_recognition with FER2013 dataset. Finally
 ## 继承VGG结构的的mini_VGG
 ## Changed mini_VGG based on VGG
 
-在实际使用VGG的时候发现，原本的输入层224*224是基于*ImageNet*，而fer2013的图像都是48*48的，直接使用VGG很容易造成过拟合，所以就把整个模型进行了缩小。
+在实际使用VGG的时候发现，原本的输入层224\*224是基于*ImageNet*，而fer2013的图像都是48\*48的，直接使用VGG很容易造成过拟合，所以就把整个模型进行了缩小。
 
 In really enviroment, the original VGG is based on the dataset *ImageNet* which the input scale is 224*224. But the picture's scale in fer2013 is 48*48, if I still use the original structure the model will overfitted. So i just shrink ever layer's size and get a good result.
 
@@ -27,9 +27,8 @@ In really enviroment, the original VGG is based on the dataset *ImageNet* which 
 ## 模型结果
 ## Model result
 <center>
-![test1](pic/test_1.jpg) | ![out1](pic/out_1.jpg)
-![test2](pic/test_2.jpg) | ![out2](pic/out_1.jpg)
-![test3](pic/test_3.jpg) | ![out3](pic/out_1.jpg)
-![test4](pic/test_4.jpg) | ![out4](pic/out_1.jpg)
-![test5](pic/test_5.jpg) | ![out5](pic/out_1.jpg)
+    <img src="pic/test1.png">
+    <img src="pic/test2.png">
+    <img src="pic/test3.png">
+    <img src="pic/test4.png">
 </center>
