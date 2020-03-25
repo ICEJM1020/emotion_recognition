@@ -13,7 +13,10 @@ Using changed mini_VGG achieve emotion_recognition with FER2013 dataset. Finally
 **keras 2.3.0**
 
 ## 数据集 / Dataset
-[FER 2013 (Downloadable)]("/Code/fer2013.csv")
+FER 2013 (Downloadable)
+
+链接：https://pan.baidu.com/s/1BH4mMu6JHU-5LCHoH0ABoA 
+提取码：sc50
 
 ## 继承VGG结构的的mini_VGG / Changed mini_VGG based on VGG
 
