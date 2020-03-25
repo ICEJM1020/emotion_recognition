@@ -3,7 +3,7 @@ Using changed mini_VGG achieve emotion_recognition with FER2013 dataset. Finally
 
 使用改变过的mini_VGG实现FER2013的表情识别，迭代60次，测试集准确率能达到65%-66%。使用opencv，支持摄像头测试和图像输入测试。
 
-## 环境
+## 环境 / Environment
 **Win10 + core i7 7th + Nvidia Geforce 940M**
 
 **python 3.7**
@@ -12,11 +12,10 @@ Using changed mini_VGG achieve emotion_recognition with FER2013 dataset. Finally
 
 **keras 2.3.0**
 
-## 数据集
+## 数据集 / Dataset
 [FER 2013 (Downloadable)]("/Code/fer2013.csv")
 
-## 继承VGG结构的的mini_VGG
-## Changed mini_VGG based on VGG
+## 继承VGG结构的的mini_VGG / Changed mini_VGG based on VGG
 
 在实际使用VGG的时候发现，原本的输入层224\*224是基于*ImageNet*，而fer2013的图像都是48\*48的，直接使用VGG很容易造成过拟合，所以就把整个模型进行了缩小。
 
@@ -24,8 +23,7 @@ In really enviroment, the original VGG is based on the dataset *ImageNet* which 
 
 ![network structure](pic/network.png)
 
-## 模型结果
-## Model result
+## 模型结果 / Model result
 <center>
     <img src="pic/test1.png">
     <img src="pic/test2.png">
