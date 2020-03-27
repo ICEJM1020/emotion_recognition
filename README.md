@@ -22,9 +22,15 @@ FER 2013 (Downloadable)
 
 在实际使用VGG的时候发现，原本的输入层224\*224是基于*ImageNet*，而fer2013的图像都是48\*48的，直接使用VGG很容易造成过拟合，所以就把整个模型进行了缩小。
 
-In really enviroment, the original VGG is based on the dataset *ImageNet* which the input scale is 224*224. But the picture's scale in fer2013 is 48*48, if I still use the original structure the model will overfitted. So i just shrink ever layer's size and get a good result.
+In really enviroment, the original VGG is based on the dataset *ImageNet* which the input scale is 224\*224. But the picture's scale in fer2013 is 48\*48, if I still use the original structure the model will overfitted. So i just shrink ever layer's size and get a good result.
 
 ![network structure](pic/network.png)
+
+## 训练结果 / Train result
+
+<center>
+    <img src="pic/final.png">
+</center>
 
 ## 模型结果 / Model result
 <center>
