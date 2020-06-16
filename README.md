@@ -1,7 +1,7 @@
 # Emotion_recognition
-Using changed mini_VGG achieve emotion_recognition with FER2013 dataset. Finally, the test set can reach to 65%-66% accuracy with 60 times iteration. Using OpenCV, can realize two ways of uses, camera input and file input.
+Using changed mini_VGG achieve emotion_recognition with FER2013 dataset. Finally, the test set can reach to 67%-68% accuracy with 60 times iteration. Using OpenCV, can realize two ways of uses, camera input and file input.
 
-使用改变过的mini_VGG实现FER2013的表情识别，迭代60次，测试集准确率能达到65%-66%。使用opencv，支持摄像头测试和图像输入测试。
+使用改变过的mini_VGG实现FER2013的表情识别，迭代60次，测试集准确率能达到67%-68%。使用opencv，支持摄像头测试和图像输入测试。
 
 ## 环境 / Environment
 **Win10 + core i7 7th + Nvidia Geforce 940M**
